@@ -1,27 +1,13 @@
-# COURSE-2Deep-Learning
+# Unsupervised Learning in Medical Image Segmentation
 
-This course foucus on:
-- basic theoretical and methodological underpinnings of machine learning
-- commonly used architecture for Deep Learning
-- current challenges such as ethics and fairness
-- specilized applications such as computer vision
+## Introduction
 
-Topics:
-Basic formalism:
-- multi-layer preceptrons
-- convolutional neural networks
-- sequence models (a little bit of NLP)
-Advanced concepts:
-- generative models including autoencoders and adversarial networks
-- some reinforcement learning
-- unsupervised and self-supervised learning
-- challenges(generlization, bias, ethics, ...)
-- applications in cv and medicine
+This repository contains the source codes and test results for the final project of CS 482/682: Machine Learning: Deep Learning at Johns Hopkins University.
 
-# Assignment
+Segmentation of lesions is an important task for artificial intelligence. AI segmentation usually falls within the role of supervised learning which requires a large, manually annotated training dataset. Our project aims to address this shortcoming in supervised approaches by exploring unsupervised approaches.
 
-My Python code for 2022 spring Deep Learning course and [study notes](https://github.com/tinghe14/COURSE-2Deep-Learning/blob/main/Study%20Note.md) for better understand the material and build knowledge graph.
+Specifically, we implemented two approaches: 3DUnet with Kmeans and 3D clustering CNN with Deep Q Network. We also implemented a supervised vanilla 3D-Unet as a baseline model to compare with. We evaluated the performance by segmentation accuracy and total runtime.
 
-Theoretical Homeworks Completed for the Class:
+See the report for details.
 
-Coding Assignments Completed at Class:
+## Results
